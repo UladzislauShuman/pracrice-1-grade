@@ -301,9 +301,10 @@ debug/moc_gistwidget.cpp: ../MyStack/gistwidget.h \
 	C:\Qt\6.6.2\mingw_64\bin\moc.exe $(DEFINES) --include C:/git/practice-1-grade/Qt2/Qt_MyStack/build-MyStack-Desktop_Qt_6_6_2_MinGW_64_bit-Release/debug/moc_predefs.h -IC:/Qt/6.6.2/mingw_64/mkspecs/win32-g++ -IC:/git/practice-1-grade/Qt2/Qt_MyStack/MyStack -IC:/Qt/6.6.2/mingw_64/include -IC:/Qt/6.6.2/mingw_64/include/QtWidgets -IC:/Qt/6.6.2/mingw_64/include/QtGui -IC:/Qt/6.6.2/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\MyStack\gistwidget.h -o debug\moc_gistwidget.cpp
 
 debug/moc_mainwindow.cpp: ../MyStack/mainwindow.h \
-		../MyStack/gistogramma.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/QTimer \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qtimer.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/QMainWindow \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qmainwindow.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qtguiglobal.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qglobal.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtversionchecks.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtconfiginclude.h \
@@ -347,13 +348,19 @@ debug/moc_mainwindow.cpp: ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtresource.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qttranslation.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qversiontagging.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qbasictimer.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qtgui-config.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qtguiexports.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qwidget.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qwindowdefs.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qobjectdefs.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qnamespace.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtmetamacros.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qobject.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qobjectdefs.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qfunctionaltools_impl.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qobject.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qstring.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qchar.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qstringview.h \
@@ -400,20 +407,16 @@ debug/moc_mainwindow.cpp: ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qscopeguard.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qobject_impl.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qbindingstorage.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/QPainter \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qpainter.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qtguiglobal.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qtgui-config.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qtguiexports.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qrect.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qmargins.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/q23utility.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qaction.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qkeysequence.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qicon.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qsize.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qpoint.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qpixmap.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qpaintdevice.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qwindowdefs.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qrect.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qpoint.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qcolor.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qrgb.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qrgba64.h \
@@ -424,22 +427,6 @@ debug/moc_mainwindow.cpp: ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qpolygon.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qregion.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qline.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qbrush.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qfontinfo.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qfont.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qfontmetrics.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/QLineF \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/QString \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/QWidget \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qwidget.h \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qaction.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qkeysequence.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qicon.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qvariant.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qdebug.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtextstream.h \
@@ -453,6 +440,10 @@ debug/moc_mainwindow.cpp: ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qhash.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qvarlengtharray.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qpalette.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qbrush.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qfont.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qfontmetrics.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qfontinfo.h \
 		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qsizepolicy.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qcursor.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qbitmap.h \
@@ -473,10 +464,18 @@ debug/moc_mainwindow.cpp: ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qnativeinterface.h \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/QMainWindow \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qmainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtabwidget.h \
 		../MyStack/gistwidget.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/QTimer \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qtimer.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qbasictimer.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/QPainter \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qpainter.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/QLineF \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/QString \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/QWidget \
 		../MyStack/MyList.h \
 		../MyStack/MyStack.h \
 		debug/moc_predefs.h \
@@ -690,9 +689,10 @@ debug/gistwidget.o: ../MyStack/gistwidget.cpp ../MyStack/gistwidget.h \
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\gistwidget.o ..\MyStack\gistwidget.cpp
 
 debug/main.o: ../MyStack/main.cpp ../MyStack/mainwindow.h \
-		../MyStack/gistogramma.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/QTimer \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qtimer.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/QMainWindow \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qmainwindow.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qtguiglobal.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qglobal.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtversionchecks.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtconfiginclude.h \
@@ -736,13 +736,19 @@ debug/main.o: ../MyStack/main.cpp ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtresource.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qttranslation.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qversiontagging.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qbasictimer.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qtgui-config.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qtguiexports.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qwidget.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qwindowdefs.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qobjectdefs.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qnamespace.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtmetamacros.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qobject.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qobjectdefs.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qfunctionaltools_impl.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qobject.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qstring.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qchar.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qstringview.h \
@@ -789,20 +795,16 @@ debug/main.o: ../MyStack/main.cpp ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qscopeguard.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qobject_impl.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qbindingstorage.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/QPainter \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qpainter.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qtguiglobal.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qtgui-config.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qtguiexports.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qrect.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qmargins.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/q23utility.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qaction.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qkeysequence.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qicon.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qsize.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qpoint.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qpixmap.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qpaintdevice.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qwindowdefs.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qrect.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qpoint.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qcolor.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qrgb.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qrgba64.h \
@@ -813,22 +815,6 @@ debug/main.o: ../MyStack/main.cpp ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qpolygon.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qregion.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qline.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qbrush.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qfontinfo.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qfont.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qfontmetrics.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/QLineF \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/QString \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/QWidget \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qwidget.h \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qaction.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qkeysequence.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qicon.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qvariant.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qdebug.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtextstream.h \
@@ -842,6 +828,10 @@ debug/main.o: ../MyStack/main.cpp ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qhash.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qvarlengtharray.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qpalette.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qbrush.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qfont.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qfontmetrics.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qfontinfo.h \
 		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qsizepolicy.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qcursor.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qbitmap.h \
@@ -862,10 +852,18 @@ debug/main.o: ../MyStack/main.cpp ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qnativeinterface.h \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/QMainWindow \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qmainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtabwidget.h \
 		../MyStack/gistwidget.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/QTimer \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qtimer.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qbasictimer.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/QPainter \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qpainter.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/QLineF \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/QString \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/QWidget \
 		../MyStack/MyList.h \
 		../MyStack/MyStack.h \
 		C:/Qt/6.6.2/mingw_64/include/QtWidgets/QApplication \
@@ -893,9 +891,10 @@ debug/main.o: ../MyStack/main.cpp ../MyStack/mainwindow.h \
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\main.o ..\MyStack\main.cpp
 
 debug/mainwindow.o: ../MyStack/mainwindow.cpp ../MyStack/mainwindow.h \
-		../MyStack/gistogramma.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/QTimer \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qtimer.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/QMainWindow \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qmainwindow.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qtguiglobal.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qglobal.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtversionchecks.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtconfiginclude.h \
@@ -939,13 +938,19 @@ debug/mainwindow.o: ../MyStack/mainwindow.cpp ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtresource.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qttranslation.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qversiontagging.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qbasictimer.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qtgui-config.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qtguiexports.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qwidget.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qwindowdefs.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qobjectdefs.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qnamespace.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtmetamacros.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qobject.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qobjectdefs.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qfunctionaltools_impl.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qobject.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qstring.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qchar.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qstringview.h \
@@ -992,20 +997,16 @@ debug/mainwindow.o: ../MyStack/mainwindow.cpp ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qscopeguard.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qobject_impl.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qbindingstorage.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/QPainter \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qpainter.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qtguiglobal.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qtgui-config.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qtguiexports.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qrect.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qmargins.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/q23utility.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qaction.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qkeysequence.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qicon.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qsize.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/qpoint.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qpixmap.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qpaintdevice.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qwindowdefs.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qrect.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qpoint.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qcolor.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qrgb.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qrgba64.h \
@@ -1016,22 +1017,6 @@ debug/mainwindow.o: ../MyStack/mainwindow.cpp ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qpolygon.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qregion.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qline.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qbrush.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qfontinfo.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qfont.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qfontmetrics.h \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/QLineF \
-		C:/Qt/6.6.2/mingw_64/include/QtCore/QString \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/QWidget \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qwidget.h \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qaction.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qkeysequence.h \
-		C:/Qt/6.6.2/mingw_64/include/QtGui/qicon.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qvariant.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qdebug.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qtextstream.h \
@@ -1045,6 +1030,10 @@ debug/mainwindow.o: ../MyStack/mainwindow.cpp ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qhash.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qvarlengtharray.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qpalette.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qbrush.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qfont.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qfontmetrics.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qfontinfo.h \
 		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qsizepolicy.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qcursor.h \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/qbitmap.h \
@@ -1065,10 +1054,18 @@ debug/mainwindow.o: ../MyStack/mainwindow.cpp ../MyStack/mainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.6.2/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.6.2/mingw_64/include/QtCore/qnativeinterface.h \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/QMainWindow \
-		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qmainwindow.h \
 		C:/Qt/6.6.2/mingw_64/include/QtWidgets/qtabwidget.h \
 		../MyStack/gistwidget.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/QTimer \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qtimer.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/qbasictimer.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/QPainter \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qpainter.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.6.2/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/QLineF \
+		C:/Qt/6.6.2/mingw_64/include/QtCore/QString \
+		C:/Qt/6.6.2/mingw_64/include/QtWidgets/QWidget \
 		../MyStack/MyList.h \
 		../MyStack/MyStack.h \
 		ui_mainwindow.h

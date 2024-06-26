@@ -1,7 +1,6 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include "gistogramma.h"
 #include <QMainWindow>
 #include "gistwidget.h"
 
