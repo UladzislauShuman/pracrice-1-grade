@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\MyList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|solutionrelative:MyList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\MyStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|solutionrelative:MyStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\MyStack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|solutionrelative:MyStack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\MyList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|solutionrelative:MyList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 105,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\main.cpp*",
+              "RelativeToolTip": "main.cpp*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-26T13:51:41.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyList.cpp",
+              "DocumentMoniker": "C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\MyList.cpp",
+              "RelativeDocumentMoniker": "MyList.cpp",
+              "ToolTip": "C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\MyList.cpp",
+              "RelativeToolTip": "MyList.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-26T13:48:40.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyStack.h",
+              "DocumentMoniker": "C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\MyStack.h",
+              "RelativeDocumentMoniker": "MyStack.h",
+              "ToolTip": "C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\MyStack.h",
+              "RelativeToolTip": "MyStack.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-26T13:26:45.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyStack.cpp",
+              "DocumentMoniker": "C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\MyStack.cpp",
+              "RelativeDocumentMoniker": "MyStack.cpp",
+              "ToolTip": "C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\MyStack.cpp",
+              "RelativeToolTip": "MyStack.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-26T13:26:44.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyList.h",
+              "DocumentMoniker": "C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\MyList.h",
+              "RelativeDocumentMoniker": "MyList.h",
+              "ToolTip": "C:\\Users\\shuma\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FAMCS\\programing\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\1 \u043A\u0443\u0440\u0441\\MyList\\MyList.h",
+              "RelativeToolTip": "MyList.h",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-26T09:46:20.766Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\shuma\OneDrive\Рабочий стол\FAMCS\programing\практика\1 курс\MyList\MyList.h(21,28): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+  MyList.vcxproj -> C:\Users\shuma\OneDrive\Рабочий стол\FAMCS\programing\практика\1 курс\MyList\x64\Debug\MyList.exe
