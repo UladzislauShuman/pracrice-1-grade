@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\git\\practice-1-grade\\Qt3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|C:\\git\\practice-1-grade\\Qt3\\MyList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|solutionrelative:MyList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|C:\\git\\practice-1-grade\\Qt3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|C:\\git\\practice-1-grade\\Qt3\\Iterator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|solutionrelative:Iterator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|C:\\git\\practice-1-grade\\Qt3\\MyList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|solutionrelative:MyList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|C:\\git\\practice-1-grade\\Qt3\\Iterator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41CF7ABA-5358-4877-852C-B0B73FDD76BF}|MyList.vcxproj|solutionrelative:Iterator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 105,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Iterator.cpp",
+              "DocumentMoniker": "C:\\git\\practice-1-grade\\Qt3\\Iterator.cpp",
+              "RelativeDocumentMoniker": "Iterator.cpp",
+              "ToolTip": "C:\\git\\practice-1-grade\\Qt3\\Iterator.cpp",
+              "RelativeToolTip": "Iterator.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-27T19:06:24.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Iterator.h",
+              "DocumentMoniker": "C:\\git\\practice-1-grade\\Qt3\\Iterator.h",
+              "RelativeDocumentMoniker": "Iterator.h",
+              "ToolTip": "C:\\git\\practice-1-grade\\Qt3\\Iterator.h",
+              "RelativeToolTip": "Iterator.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-27T19:06:10.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyList.cpp",
+              "DocumentMoniker": "C:\\git\\practice-1-grade\\Qt3\\MyList.cpp",
+              "RelativeDocumentMoniker": "MyList.cpp",
+              "ToolTip": "C:\\git\\practice-1-grade\\Qt3\\MyList.cpp",
+              "RelativeToolTip": "MyList.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-26T13:48:40.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\git\\practice-1-grade\\Qt3\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\git\\practice-1-grade\\Qt3\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-26T13:51:41.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "d7bd4840-9e4b-4ad7-a974-b8520cd4a795",
+        "Display": 0,
+        "X": 498,
+        "Y": 69,
+        "Width": 1293,
+        "Height": 904,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyList.h",
+              "DocumentMoniker": "C:\\git\\practice-1-grade\\Qt3\\MyList.h",
+              "RelativeDocumentMoniker": "MyList.h",
+              "ToolTip": "C:\\git\\practice-1-grade\\Qt3\\MyList.h",
+              "RelativeToolTip": "MyList.h",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAD8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-26T09:46:20.766Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
