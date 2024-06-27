@@ -1,10 +1,8 @@
 {
   "object": {
-    "string": "��������",
-    "����" "������",
-    "number": "��������",
-    "����" "�����",
-    "inner_array": []
+    "string":"smth" ,
+    "number": 10,
+    "inner_array": [],
   },
   "array": [
     false,

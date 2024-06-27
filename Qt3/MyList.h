@@ -30,24 +30,28 @@ public:
     bool isEmpty() { return this->size == 0; }
     ~MyList();
 
-    class Iterator
-    {
+    class Iterator {
     public:
-        Iterator() = default;
+        Iterator() :ptr(nullptr) {};
         Iterator(SElement* ptr_) :ptr(ptr_) {};
-        Iterator operator++()
+        ~Iterator() = default;// dont know what to do with it
+
+        Iterator First();
+        Iterator Next()
         {
+            //nullptr can be
             ptr = ptr->next;
             return *this;
         }
-        Iterator operator++(int)
+        bool isDone()
         {
-            Iterator temp(*this);
-            this->operator++();
-            return temp;
+            return ptr == nullptr; // I cmp ptr with nullptr because of the next element of the last element of list is equal nullptr ( how i belive)
         }
-        int& operator*() { return  (*ptr).data; }
-        const int& operator*()const { return  (*ptr).data; }
+        int CurrentItem()
+        {
+            return ptr->data;
+        }
+
         bool operator!=(const Iterator& it) const
         {
             return ptr != it.ptr;
@@ -56,17 +60,15 @@ public:
         {
             return ptr == it.ptr;
         }
-        ~Iterator() = default;
-        SElement* GetPtr() { return ptr; }
+
     private:
         SElement* ptr;
     };
-    Iterator Begin() { return this->head; }
-    MyIterator First() { return this->head; }
-    //Iterator End() { return this->tail->next; }
+    Iterator First() 
+    { 
+        return this->head; 
+    }
 private:
     size_t size;
     SElement* head;
-    //SElement* tail;
-
 };

@@ -12,6 +12,7 @@ public:
     }
     MyIterator Next() 
     {
+        //nullptr can be
         ptr = ptr->next;
         return *this;
     }

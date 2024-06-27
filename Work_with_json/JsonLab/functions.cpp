@@ -11,19 +11,7 @@ void CheckArgumentsAmount(int arguments_amount)
     }
 }
 
-/*
-В случае
-некорректности пути необходимо сгенерировать исключение
-std::invalid_argument, содержащее соответствующее сообщение:
-«Filesystem object by path указать путь is not exists!», либо
-«Filesystem object by path указать путь is not a regular file!»,
-либо «Filesystem object by path указать путь has invalid
-extension!». Использовать:
-− функцию std::filesystem::exists;
-− функцию std::filesystem::is_regular_file;
-− метод has_extension класса std::filesystem::path;
-− метод extension класса std::filesystem::path.
-*/
+
 void CheckInputPath(const std::filesystem::path& path_to_filesystem_object)
 {
     //существует ли
@@ -47,5 +35,30 @@ void CheckInputPath(const std::filesystem::path& path_to_filesystem_object)
 
 bool IsJsonCorrect(const nlohmann::json& json)
 {
+    if (!json.is_object()) {
+        return false;
+    }
+    if (!json.contains("string") or !json["string"].is_string()) {
+        return false;
+    }
+    if (!json.contains("empty") or !json["empty"].is_null()) {
+        return false;
+    }
+    if (!json.contains("array") or !json["array"].is_array()) {
+        return false;
+    }
+    if (json["array"].size() != 3) {
+        return false;
+    }
+    if (!json["array"][0].is_boolean() or !json["array"][1].is_number() ||
+        !json["array"][2].is_object()) {
+        return false;
+    }
+    if (!json.contains("number") or !json["number"].is_number()) {
+        return false;
+    }
+    if (!json.contains("object") or !json["object"].is_null()) {
+        return false;
+    }
     return true;
 }
