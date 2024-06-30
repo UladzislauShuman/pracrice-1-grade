@@ -1,0 +1,1 @@
+[len(line) for line in sentence.split()]

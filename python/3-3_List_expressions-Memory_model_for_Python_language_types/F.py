@@ -1,0 +1,1 @@
+{letter: text.lower().count(letter) for letter in set(text.lower()) if letter.isalpha()}

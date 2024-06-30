@@ -1,0 +1,1 @@
+"".join(["".join([array[0] * array[1]]) for array in rle])
