@@ -1,0 +1,10 @@
+name = input()
+price = int(input())
+MASS = int(input())
+money = int(input())
+
+print("Чек")
+print(name, " - ", MASS, "кг", " - ", price, "руб/кг", sep="")
+print("Итого: ", f"{price*MASS:.0f}", "руб", sep="")
+print("Внесено: ", f"{money:.0f}", "руб", sep="")
+print("Сдача: ", f"{money - price * MASS:.0f}", "руб", sep="")
