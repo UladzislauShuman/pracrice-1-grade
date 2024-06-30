@@ -1,0 +1,3 @@
+i thought i would use Iterator for push_back or pop_back, but
+as i understand, if i do want to make problems with one of OOP idea, i
+cant make a method , which gives me an ability to change smth in my SElement of MyList

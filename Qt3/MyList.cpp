@@ -1,13 +1,19 @@
 ﻿#include "MyList.h"
+#include "MyList.h"
 
-MyList::MyList() :size(0), head(nullptr)/*, tail(nullptr)*/ {}
-
-
+MyList::MyList() :size(0), head(nullptr) {}
 MyList::MyList(const std::initializer_list<int>& list) :MyList()
 {
     for (int i : list)
     {
         this->push_back(i);
+    }
+}
+MyList::~MyList()
+{
+    while (this->size)
+    {
+        this->pop_back();
     }
 }
 
@@ -18,14 +24,13 @@ void MyList::push_back(const int& key)
     {
         this->head = temp;
     }
-    else{
-        for (MyList::Iterator it = this->Begin();/*it.GetPtr()->next != nullptr*/; it++)
+    else {
+        SElement* temp_ = this->head;
+        for (int i = 1; i < this->size; ++i)
         {
-            if (it.GetPtr()->next == nullptr) {
-                it.GetPtr()->next = temp;
-                break;
-            }
+            temp_ = temp_->next;
         }
+        temp_->next = temp;
     }
 
     this->size++;
@@ -38,18 +43,10 @@ void MyList::push_front(const int& element)
     this->size++;
 }
 
-MyList::~MyList()
-{
-    while (this->size)
-    {
-        this->pop_back();
-    }
-}
+
 
 int MyList::pop_back()
 {
-    /*SElement* Temp = this->tail;
-    int ReturnValue = this->tail->data;*/
     int ReturnValue;
     if (this->size == 0)
     {
@@ -65,16 +62,13 @@ int MyList::pop_back()
     }
     else
     {
-        for (MyList::Iterator it = this->Begin();/*it.GetPtr()->next != nullptr*/; it++)
+        SElement* temp = this->head;
+        for (int i = 1; i < this->size; ++i)
         {
-            if (it.GetPtr()->next != nullptr and it.GetPtr()->next->next == nullptr) {
-                ReturnValue = it.GetPtr()->next->data;
-                SElement* Temp = it.GetPtr()->next;
-                it.GetPtr()->next = nullptr;
-                delete Temp;
-                break;
-            }
+            temp = temp->next;
         }
+        ReturnValue = temp->data;
+        delete temp;
     }
     size--;
     return ReturnValue;
@@ -105,7 +99,7 @@ int MyList::pop_front()
 void MyList::insert(const int& element, int index)
 {
 
-    if (index > this->getSize() or index < 0)
+    if (index > this->count() or index < 0)
     {
         std::cout << "wrong index" << std::endl;
         return;
@@ -117,7 +111,7 @@ void MyList::insert(const int& element, int index)
         return;
     }
 
-    if (index == this->getSize())
+    if (index == this->count())
     {
         this->push_back(element);
         return;
@@ -142,7 +136,7 @@ void MyList::remove(const int& element)
     SElement* tempPrev = nullptr;
     int i = 0;
 
-    while (i < this->getSize())
+    while (i < this->count())
     {
 
         if (element == temp->data)
@@ -181,13 +175,30 @@ void MyList::print()
         std::cout << "null" << std::endl;
         return;
     }
-    for (MyList::Iterator it = this->Begin(); /*it.GetPtr()->next != nullptr*/; it++)
+    for (MyIterator i(this);!i.IsDone();i.Next())
     {
-        if (it.GetPtr()->next == nullptr) {
-            std::cout << *it << " ";
-            break;
-        }
-        std::cout << *it << " ";
+        std::cout << i.CurrentItem() << " ";
     }
     std::cout << '\n';
+}
+
+int& MyList::Get(int index) {
+    try {
+        if (index < 0 or index >= this->size) {
+            throw "bad index";
+        }
+        if (index == 0) {
+            return this->head->data;
+        }
+        else {
+            SElement* temp = this->head;
+            for (int i = 1; i <= index; ++i) {
+                temp = temp->next;
+            }
+            return temp->data;
+        }
+    }
+    catch (const std::string* exception_) {
+        std::cout << *exception_ << std::endl;
+    }
 }
