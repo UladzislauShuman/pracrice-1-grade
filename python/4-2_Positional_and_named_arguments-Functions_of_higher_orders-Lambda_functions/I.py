@@ -1,0 +1,1 @@
+lambda num: (sum(int(i) for i in str(num))) % 2 == 0
