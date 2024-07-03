@@ -1,0 +1,56 @@
+smth hellful for me about JSON
+there are mostly exampls of code
+
+1------------------------------------------------
+how to read .json files with out knowen about keys?
+
+```C++
+#include <iostream>
+#include <nlohmann/json.hpp>
+
+using json = nlohmann::json;
+
+//function for print this
+void printObjectKeys(const json& jsonObject, bool recursive, int ident) {
+    if (jsonObject.is_object() || jsonObject.is_array()) {
+        for (auto& it : jsonObject.items()) {
+            std::cout << std::string(ident, ' ') << it.key() << " -> " << it.value().type_name() << std::endl;
+            if (recursive && (it.value().is_object() || it.value().is_array())) {
+                printObjectKeys(it.value(), recursive, ident + 4);
+            }
+        }
+    }
+}
+
+int main() {
+    // Создаем JSON-объект
+    json jsonObject = R"(
+        {
+            "name": "XYZ",
+            "active": true,
+            "id": "4509237",
+            "origin": null,
+            "user": {
+                "uname": "bob",
+                "uhight": 1.84
+            },
+            "Tags": [
+                {"tag": "Default", "id": 71},
+                {"tag": "MC16", "id": 21},
+                {"tag": "Default", "id": 11},
+                {"tag": "MC18", "id": 10}
+            ],
+            "Type": "TxnData"
+        }
+    )"_json;
+
+    std::cout << "Чтение ключей объекта (не рекурсивно):" << std::endl;
+    printObjectKeys(jsonObject, false, 1);
+
+    std::cout << std::endl << "Чтение ключей объекта (рекурсивно):" << std::endl;
+    printObjectKeys(jsonObject, true, 1);
+
+    return 0;
+}
+
+```
