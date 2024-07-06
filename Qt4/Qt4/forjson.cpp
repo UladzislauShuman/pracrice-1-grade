@@ -26,6 +26,13 @@ bool isCorrectStructure(nlohmann::json& json_)
                     qDebug() << ".json has not only _int_ elements";
                     return false;
                 }
+                else{
+                    if(*it < 0){
+                        QMessageBox::information(nullptr, "Mistake", ".json has less than 0 elements");
+                        qDebug() << ".json has less than 0 elements";
+                        return false;
+                    }
+                }
             }
         }
         else{
