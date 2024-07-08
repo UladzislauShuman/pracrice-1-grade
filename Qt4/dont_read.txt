@@ -1,5 +1,5 @@
 smth hellful for me about JSON
-there are mostly exampls of code
+there are mostly exampls of code.
 
 1------------------------------------------------
 how to read .json files with out knowen about keys?
